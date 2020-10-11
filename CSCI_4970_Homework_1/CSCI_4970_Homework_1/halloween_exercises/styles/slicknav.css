@@ -11,14 +11,13 @@
 	line-height: 1.125em;
 	cursor: pointer;
 }
-.slicknav_menu .slicknav_menutxt {
-	display: block;
-	line-height: 1.188em;
-	float: left;
-}
+
 .slicknav_menu .slicknav_icon {
 	float: left;
 	margin: 0.188em 0 0 0.438em;
+}
+.slicknav_nav {
+	clear: both
 }
 .slicknav_menu .slicknav_no-text {
 	margin: 0
@@ -37,9 +36,7 @@
 .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
 	margin-top: 0.188em
 }
-.slicknav_nav {
-	clear: both
-}
+
 .slicknav_nav ul, .slicknav_nav li {
 	display: block
 }
@@ -64,10 +61,7 @@
 .slicknav_menu:after {
 	clear: both
 }
-/* IE6/7 support */
-.slicknav_menu {
-*zoom: 1
-}
+
 /* 
     User Default Style
     Change the following styles to modify the appearance of the menu.
@@ -75,6 +69,10 @@
 
 .slicknav_menu {
 	font-size: 16px;
+}
+.slicknav_nav .slicknav_item a {
+	padding: 0;
+	margin: 0;
 }
 /* Button */
 .slicknav_btn {
@@ -96,6 +94,10 @@
 .slicknav_menu .slicknav_icon-bar {
 	background-color: #f5f5f5;
 }
+/* IE6/7 support */
+.slicknav_menu {
+*zoom: 1
+}
 .slicknav_menu {
 	background: #4c4c4c;
 	padding: 5px;
@@ -106,10 +108,7 @@
 	padding: 0;
 	font-size: 0.875em;
 }
-.slicknav_nav, .slicknav_nav ul {
-	list-style: none;
-	overflow: hidden;
-}
+
 .slicknav_nav ul {
 	padding: 0;
 	margin: 0 0 0 20px;
@@ -124,9 +123,15 @@
 	text-decoration: none;
 	color: #fff;
 }
-.slicknav_nav .slicknav_item a {
-	padding: 0;
-	margin: 0;
+
+.slicknav_menu .slicknav_menutxt {
+	display: block;
+	line-height: 1.188em;
+	float: left;
+}
+.slicknav_nav, .slicknav_nav ul {
+	list-style: none;
+	overflow: hidden;
 }
 .slicknav_nav .slicknav_item:hover {
 	-webkit-border-radius: 6px;

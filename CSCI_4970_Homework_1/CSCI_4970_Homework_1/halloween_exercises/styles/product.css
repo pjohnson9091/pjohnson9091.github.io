@@ -27,7 +27,16 @@ color: black;
 text-indent: 1.5px;
 line-height: 3px;
 } 
-
+header img {
+	float:left;
+	padding: 0.5em 1em;
+	}
+ 
+header h3{
+	font-size: 125%;
+	text-indent: 1px;
+	line-height: 0px;
+	 }
 #nav_bar ul {
 	list-style-type: none;
 	position: relative;
@@ -79,16 +88,7 @@ line-height: 3px;
 	clear: both;
 }
 
-header img {
-	float:left;
-	padding: 0.5em 1em;
-	}
- 
-header h3{
-	font-size: 125%;
-	text-indent: 1px;
-	line-height: 0px;
-	 }
+
  
 #nav_vertical{
 	float:left;

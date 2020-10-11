@@ -168,13 +168,7 @@ body p{
 	margin: 0.35em;
 	}
 	
-#footer{
-	font-weight: 100;
-	padding: 0 16px;
-	margin: 0.5em 0.5em;
-	font-size: 90%;
-	text-align:center;
-}
+
 	
 #body_img{
 	height:auto;
@@ -192,4 +186,11 @@ footer{
 	background: -moz-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
 	background: -o-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
 	background: linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+}
+#footer{
+	font-weight: 100;
+	padding: 0 16px;
+	margin: 0.5em 0.5em;
+	font-size: 90%;
+	text-align:center;
 }

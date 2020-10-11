@@ -40,6 +40,14 @@ header section h3{
 	font-size: 125%;
 	line-height: 0;
 }
+#header_img {
+	float:left;
+	padding: 0.5em 1em;
+	width: 9%;
+	height: auto;
+	min-width: 40px;
+	vertical-align: center;
+	}
 
 #nav_bar ul {
 	list-style-type: none;
@@ -94,14 +102,7 @@ header section h3{
 	clear: both;
 }
 
-#header_img {
-	float:left;
-	padding: 0.5em 1em;
-	width: 9%;
-	height: auto;
-	min-width: 40px;
-	vertical-align: center;
-	}
+
  
 
  
@@ -220,19 +221,6 @@ figcaption{
 }
 
 
-footer{
-	font-size: 90%;
-	text-align:center;
-	border-top: 2px solid black;
-	padding: 0.5em 1em;
-	line-height: 1px;
-	clear:both;
-	background: -webkit-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
-	background: -moz-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
-	background: -o-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
-	background: linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
-}
-
 #mobile_menu{
 	display: none;
 }
@@ -304,5 +292,17 @@ body{
 	header section h3{
 		font-size: 110%;
 	}
+}
+footer{
+	font-size: 90%;
+	text-align:center;
+	border-top: 2px solid black;
+	padding: 0.5em 1em;
+	line-height: 1px;
+	clear:both;
+	background: -webkit-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+	background: -moz-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+	background: -o-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+	background: linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
 }
 
