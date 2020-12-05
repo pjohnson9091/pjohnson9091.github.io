@@ -1,0 +1,131 @@
+<!doctype html>
+<!DOCTYPE html>
+<html class = "container">
+<head>
+        <title>GPA</title>
+        <link rel="shortcut icon" href="../images/favicon.ico">
+        <meta content="width=device-width , initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="../style/GpaPage.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+        <script src="../js/GPA.js"></script>
+    
+        
+</head>
+<body>
+<nav class=".nav-bar">
+    <ol>
+        <li class="nav"><a href="../Index.html">Home</a></li>
+        <li  class="nav"><a href="../other_pages/Description.html">Description</a></li>
+        <li  class="nav"><a href="../other_pages/Teaching_assistant.html">Teaching-Assistant Application</a></li>
+       <li  class="nav"><a href="../other_pages/GPA.html">GPA</a></li>
+    </ol>
+</nav>
+<header class="head">
+        <img src="../images/AUM_logo.png" alt="AUM" id ="header_img" width="500" height="125">
+</header>
+<aside class="sidebar">
+        <h2>Our Mission</h2>
+        <p class="mission">The mission of Auburn University at Montgomery is to provide quality and diverse educational opportunities at the undergraduate and graduate levels through use of traditional and electronic delivery systems, and to foster and support an environment conducive to teaching, research, scholarship, and collaboration with government agencies, our community, and other educational institutions.</p>
+    
+        <h2>Our Vision</h2>
+        <h3>Aubrun University at Montgomery strives to be a university that...</h3>
+        <ul>
+            <li class="vision">Is known for its commitment to developing dynamic and applied academic and research programs.</li>
+            <li class="vision">Is a student’s first choice in a variety of programs of distinction.</li>
+            <li class="vision">Embraces and builds an international presence at home and abroad, increasingly known for its ability to prepare students to thrive in a global community.</li>
+            <li class="vision">Graduates students who become engaged alumni with a life-long interest in and personal connection to AUM.</li>
+            <li class="vision">Is recognized as an integral community partner and a resource for the enrichment and economic development of the Southeast region and beyond.</li>
+        </ul>
+        
+</aside>
+<div class="main-content">
+        <div>
+    <br>
+   <label class = "name">Your Name:</label>
+   <input type="text" id="name" placeholder="enter your name"><br><br>
+   <center>
+<form name="gpacalcform">
+<table border=2 bgcolor=#ef502d cellpadding="5" 
+cellspacing="2">
+<th></th>
+<th>Letter Grade</th>
+<th>Credits</th>
+<tr>
+<td>Subject 1</td>
+<td><input type=text size=5 id="gr1" align=top 
+maxlength=5></td>
+<td><input type=text size=5 id="cr1" align=top 
+maxlength=5></td>
+</tr>
+<tr>
+<td>Subject 2</td>
+<td><input type=text size=5 id="gr2" align=top 
+maxlength=5></td>
+<td><input type=text size=5 id="cr2" align=top 
+maxlength=5></td>
+</tr>
+<tr>
+<td>subject 3</td>
+<td><input type=text size=5 id="gr3" align=top 
+maxlength=5></td>
+<td><input type=text size=5 id="cr3" align=top 
+maxlength=5></td>
+</tr>
+<tr>
+<td>Subject 4</td>
+<td><input type=text size=5 id="gr4" align=top 
+maxlength=5></td>
+<td><input type=text size=5 id="cr4" align=top 
+maxlength=5></td>
+</tr>
+<tr>
+<td>Subject 5</td>
+<td><input type=text size=5 id="gr5" align=top 
+maxlength=5></td>
+<td><input type=text size=5 id="cr5" align=top 
+maxlength=5></td>
+</tr>
+<tr>
+<td>Subject 6</td>
+<td><input type=text size=5 id="gr6" align=top 
+maxlength=5></td>
+<td><input type=text size=5 id="cr6" align=top 
+maxlength=5></td>
+</tr>
+<tr>
+<td>Subject 7</td>
+<td><input type=text size=5 id="gr7" align=top 
+maxlength=5></td>
+<td><input type=text size=5 id="cr7" align=top 
+maxlength=5></td>
+</tr>
+<tr>
+<td>Subject 8</td>
+<td><input type=text size=5 id="gr8" align=top 
+maxlength=5></td>
+<td><input type=text size=5 id="cr8" align=top 
+maxlength=5></td>
+</tr>
+<tr align=center>
+<td colspan=3><input type="button" value="calculate" 
+name="calcbutton"
+onclick="gpacalc()"></td>
+</tr>
+</table>
+</form>
+<br>
+</center>
+
+<br>
+
+
+  </div>
+</div>
+
+<footer class="footer">
+        <p>This is Made By Matthew Parker Johnson Name.</p>
+        <p> Contact: mjohn103@aum.edu</p>
+        <p>All copyrights are Reserved.</p> 
+</footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+
+        body{
+                margin: 0;
+                padding: 0;
+                font-family: 'Noto Serif', serif;
+        }
+        nav{
+                background-color: #ef502d;
+                display:block;
+                padding: 20px;
+                margin: 0;
+        }
+   .nav{
+                list-style-type: none;
+                float:left;
+                margin-left: 40px;
+                margin-top: -20px;
+
+     }
+     a{
+        text-decoration: none;
+        color: black;
+     }
+     .nav a:hover{
+        color:blue;
+     }
+     .nav:hover{
+                transform:scale(1.3);
+     }
+ 
+     .nav a:active{
+        color:red;
+     }
+
+     .head{
+        width: 100%;
+        height: 200px;
+        background-color:#fffefd;
+        margin-top: 0;
+        
+     }
+     .sidebar{
+         text-align: center;
+        height: 1000px;
+        width: 20%;
+        background-color: #3399ff;
+        float: left;
+     }
+     p.mission{
+        font-size: 14px; 
+     }
+     li.vision{
+        text-align: left;
+     }
+
+     .main-content{
+        text-align: center;
+        color:white;
+        width: 80%;
+        float: left;
+        background:url(https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:top;
+        height: 1000px;
+     }
+    .table{
+        background-color: black;
+        margin-left: 380px;
+        border: 20px orange;
+    }
+           th, td {
+                border: 3px solid #ef502d;
+
+            }
+    .center{
+        text-align: center;
+    }
+    p{
+        font-size: 17px;
+    }
+    .contact{
+        text-align: left;
+        margin: -5px;
+        margin-left: 3px;
+    }
+
+   
+   .footer{
+        clear: both;
+        height: 213px;
+        background-color: #4d524b;
+    }
+   .footer p{
+        text-align: center;
+        color: #f0f7ed;
+        padding: 10px;
+   }
