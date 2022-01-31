@@ -18,8 +18,10 @@ h2{
     margin-top: 5px;
     margin-left: 1005px;
 }
-.char_list{
+p.char_list{
     font-size: 30px;
+    width: 50%;
+    padding-left: 29%;
 
 }
 footer{
