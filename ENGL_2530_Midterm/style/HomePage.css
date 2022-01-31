@@ -1,0 +1,36 @@
+body{
+    background-color:red;
+
+}
+header{
+    text-align: center;
+}
+aside{
+	float:left;
+	width: 160px;
+	height: 600px;
+	padding-right: 1em;
+	}
+
+aside ul{
+	list-style-type: none;
+	margin-left: 0.5em;
+}
+
+#nav_vertical ul li{
+	width: 108px;
+	margin-bottom: 0.5em;
+	border: 3px solid black;
+	padding: 0;
+}
+
+#nav_vertical ul li a {
+	display:block ;
+	text-decoration: none;
+	padding: 0.25em 0.5em;
+	color: black;
+	font-size: 100%;
+	background-color: #FFA500;
+	font-weight: bold;
+}
+#nav_vertical ul li a:hover, #nav_vertical ul li a:focus{background-color:gray;}
