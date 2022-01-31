@@ -49,8 +49,19 @@ section{
 	text-align: center;
 }
 
-p{
+p.body{
     padding-left: 29%;
 	width: 50%;
 	font-size: 21px;
+}
+.footer{
+	clear: both;
+	height: 120px;
+	background-color: #4d524b;
+	font-size: 15px;
+}
+.footer p{
+	text-align: center;
+	color: #f0f7ed;
+	/*padding: 20px;*/
 }
