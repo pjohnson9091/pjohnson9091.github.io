@@ -45,11 +45,8 @@ aside ul{
 }
 #nav_vertical ul li a:hover, #nav_vertical ul li a:focus{background-color:gray;}
 
-section{
-	text-align: center;
-}
-
 p.body{
+	text-align: center;
     padding-left: 29%;
 	width: 50%;
 	font-size: 21px;
