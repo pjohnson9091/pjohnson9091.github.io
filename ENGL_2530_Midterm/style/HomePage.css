@@ -5,7 +5,14 @@ body{
 header{
     text-align: center;
 }
+h2{
+	font-size: 50px;
+}
+h3{
+	font-size: 25px;
+}
 aside{
+	margin-top: 150px;
 	float:left;
 	width: 160px;
 	height: 600px;
@@ -15,22 +22,35 @@ aside{
 aside ul{
 	list-style-type: none;
 	margin-left: 0.5em;
+	
 }
 
 #nav_vertical ul li{
-	width: 108px;
+	width: 201px;
 	margin-bottom: 0.5em;
 	border: 3px solid black;
 	padding: 0;
+	text-align:center;
+	
 }
 
 #nav_vertical ul li a {
 	display:block ;
 	text-decoration: none;
-	padding: 0.25em 0.5em;
+	padding: 0.5em 0.5em;
 	color: black;
 	font-size: 100%;
 	background-color: #A9A9A9;
 	font-weight: bold;
 }
 #nav_vertical ul li a:hover, #nav_vertical ul li a:focus{background-color:gray;}
+
+section{
+	text-align: center;
+}
+
+p{
+    padding-left: 29%;
+	width: 50%;
+	font-size: 21px;
+}
