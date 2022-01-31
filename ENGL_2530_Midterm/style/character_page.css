@@ -18,17 +18,17 @@ h2{
     margin-top: 5px;
     margin-left: 1005px;
 }
-
 .char_list{
-    font-size: 22px;
+    font-size: 30px;
+
 }
-.footer{
+footer{
 	clear: both;
 	height: 120px;
 	background-color: #4d524b;
 	font-size: 15px;
 }
-.footer p{
+footer p{
 	text-align: center;
 	color: #f0f7ed;
 }
