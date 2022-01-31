@@ -1,5 +1,5 @@
 body{
-    background-color:red;
+    background-color:#ff3333;
 
 }
 header{
@@ -30,7 +30,7 @@ aside ul{
 	padding: 0.25em 0.5em;
 	color: black;
 	font-size: 100%;
-	background-color: #FFA500;
+	background-color: #A9A9A9;
 	font-weight: bold;
 }
 #nav_vertical ul li a:hover, #nav_vertical ul li a:focus{background-color:gray;}
