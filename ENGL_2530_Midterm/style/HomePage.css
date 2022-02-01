@@ -53,7 +53,10 @@ p.body{
 }
 
 #background_img{
-	margin-left: -150px;
+max-width: 200%;
+height: auto;
+width: auto;
+margin-left: 15vw;
 }
 
 .footer{
