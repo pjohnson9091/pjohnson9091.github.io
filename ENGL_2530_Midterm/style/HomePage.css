@@ -54,7 +54,7 @@ p.body{
 
 #background_img{
 left: 22%;
-position: absolute;
+position: relative;
 max-width: 200%;
 /*margin-left: 35px;
 height: 5%;
