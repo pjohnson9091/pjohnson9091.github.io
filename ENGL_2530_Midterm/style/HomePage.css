@@ -51,6 +51,11 @@ p.body{
 	width: 50%;
 	font-size: 21px;
 }
+
+#background_img{
+	margin-left: -150px;
+}
+
 .footer{
 	clear: both;
 	height: 120px;
