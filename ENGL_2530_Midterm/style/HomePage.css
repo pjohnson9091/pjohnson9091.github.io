@@ -52,12 +52,17 @@ p.body{
 	font-size: 21px;
 }
 
-#background_img{
-	position: relative;
+.background_img{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+ 
+/*	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	
-/*left: 17%;
+left: 17%;
 position: relative;
 max-width: 200%;
 margin-left: 35px;
