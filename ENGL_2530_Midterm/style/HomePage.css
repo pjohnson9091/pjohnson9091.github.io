@@ -53,6 +53,7 @@ p.body{
 }
 
 #background_img{
+position: relative;
 max-width: 200%;
 margin-left: 35px;
 /*height: 5%;
