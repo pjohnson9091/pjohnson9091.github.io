@@ -54,7 +54,7 @@ p.body{
 
 #background_img{
 max-width: 200%;
-
+height: auto;
 width: auto;
 margin-left: 15vw;
 }
