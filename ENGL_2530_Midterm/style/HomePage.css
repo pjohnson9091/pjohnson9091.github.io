@@ -53,10 +53,11 @@ p.body{
 }
 
 #background_img{
+left: 5%;
 position: relative;
 max-width: 200%;
-margin-left: 35px;
-/*height: 5%;
+/*margin-left: 35px;
+height: 5%;
 width: 100%;
 margin-left: 15vw;*/
 }
