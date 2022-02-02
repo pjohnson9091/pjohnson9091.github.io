@@ -43,6 +43,7 @@ aside ul{
 	background-color: #A9A9A9;
 	font-weight: bold;
 }
+
 #nav_vertical ul li a:hover, #nav_vertical ul li a:focus{background-color:gray;}
 
 p.body{
