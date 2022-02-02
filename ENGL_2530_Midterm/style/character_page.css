@@ -6,15 +6,22 @@ h2{
 }
 
 #Beowulf_img{
+    display: block;
     margin-left: -120px;
     margin-top: 10px;
 }
 
+#Unferth_img{
+    display: block;
+}
+
 #Grendel_img{
+    display: block;
     margin-left: 970px;
 }
 
 #Grendels_mother_img{
+    display: block;
     margin-top: 5px;
     margin-left: 1005px;
 }
@@ -24,13 +31,7 @@ p.char_list{
     padding-left: 29%;
 
 }
-#Beowulf{
 
-}
-
-#Unferth{
-
-}
 footer{
 	clear: both;
 	height: 120px;
