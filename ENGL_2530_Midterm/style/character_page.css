@@ -4,11 +4,9 @@ h2{
     margin-left: 355px;
     max-width: 725px;
 }
-
-#Beowulf_img{
+/*
+.Beowulf_img{
     display: block;
-    margin-left: -120px;
-    margin-top: 10px;
 }
 
 #Unferth_img{
@@ -24,7 +22,7 @@ h2{
     display: block;
     margin-top: 5px;
     margin-left: 1005px;
-}
+}*/
 p.char_list{
     font-size: 20px;
     width: 50%;
@@ -33,12 +31,11 @@ p.char_list{
 }
 
 footer{
+    position: relative;
 	clear: both;
 	height: 120px;
 	background-color: #4d524b;
 	font-size: 15px;
-}
-footer p{
-	text-align: center;
+    text-align: center;
 	color: #f0f7ed;
 }
