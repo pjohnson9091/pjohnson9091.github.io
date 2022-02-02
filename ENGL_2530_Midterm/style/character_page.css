@@ -4,11 +4,12 @@ h2{
     margin-left: 355px;
     max-width: 725px;
 }
-/*
-.Beowulf_img{
-    display: block;
-}
 
+.Beowulf_img{
+    margin-left: -1200px;
+    margin-top: 70px;
+}
+/*
 #Unferth_img{
     display: block;
 }
@@ -23,6 +24,11 @@ h2{
     margin-top: 5px;
     margin-left: 1005px;
 }*/
+
+.char_list_block{
+    margin-top: -220px;
+}
+
 p.char_list{
     font-size: 20px;
     width: 50%;
