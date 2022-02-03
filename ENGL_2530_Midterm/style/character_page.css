@@ -29,11 +29,13 @@ h2{
 
 #Grendels_mother_img{
     display: block;
+    margin-left: 1150px;
+    margin-top: 70px;
 
 }
 
 .char_list_block{
-    margin-top: -320px;
+    margin-top: -500px;
 }
 
 p.char_list{
