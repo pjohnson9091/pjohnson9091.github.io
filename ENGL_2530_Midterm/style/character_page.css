@@ -24,8 +24,10 @@ h2{
 #Grendel_img{
     display: block;
     position: relative;
+    float: right;
+    /*
     margin-left: 1150px;
-    margin-top: -350px;
+    margin-top: -350px;*/
 }
 
 #Grendels_mother_img{
