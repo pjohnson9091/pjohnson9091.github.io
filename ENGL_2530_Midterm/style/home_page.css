@@ -14,8 +14,9 @@ h3{
 }
 aside{
 	margin-top: 150px;
+	margin-left: -20px;
 	float:left;
-	width: 160px;
+	width: 50px;
 	height: 200px;
 	padding-right: 1em;
 	}
@@ -27,7 +28,7 @@ aside ul{
 }
 
 #nav_vertical ul li{
-	width: 201px;
+	width: 150px;
 	margin-bottom: 0.5em;
 	border: 3px solid black;
 	padding: 0;
