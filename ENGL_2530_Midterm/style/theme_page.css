@@ -16,8 +16,8 @@ p.theme{
 #Beowulf_and_Dragon_img{
     display: block;
     position: relative;
-    margin-left: 350px;
-    /*margin-right: auto;*/
+    margin-left: auto;
+    margin-right: auto;
     width: 750px;
     height: 325px;
 }
