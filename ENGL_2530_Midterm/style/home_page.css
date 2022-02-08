@@ -64,9 +64,10 @@ p.body{
 
 .footer{
 	clear: both;
-	height: 120px;
+	height: 150px;
 	background-color: #4d524b;
 	font-size: 15px;
+
 }
 .footer p{
 	text-align: center;
