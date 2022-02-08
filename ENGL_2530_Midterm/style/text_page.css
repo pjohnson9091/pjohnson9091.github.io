@@ -18,7 +18,7 @@ p.body{
     position: relative;
     width: 300px; 
     height: 200px;
-    margin-top: -300px;
+    margin-top: -200px;
 }
 
 #Beowulf_pyre_img{
@@ -27,7 +27,7 @@ p.body{
     width: 255px; 
     height: 180px;
     float:right;
-    margin-top: -175px;
+    margin-top: -200px;
 }
 
 footer{
