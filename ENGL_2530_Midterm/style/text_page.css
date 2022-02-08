@@ -5,20 +5,20 @@ h2{
 	margin-right: auto;
     max-width: 725px;
 }
+
 p.body{
     text-align: justify ;
     font-size: 20px;
     width: 50%;
     padding-left: 29%;
-
 }
+
 #Heorot_img{
     display: block;
     position: relative;
     width: 300px; 
     height: 200px;
     margin-top: -300px;
-
 }
 
 #Beowulf_pyre_img{
@@ -28,7 +28,6 @@ p.body{
     height: 180px;
     float:right;
     margin-top: -175px;
-
 }
 
 footer{
