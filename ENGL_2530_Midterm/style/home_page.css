@@ -64,6 +64,7 @@ p.body{
 
 .footer{
 	clear: both;
+	float: bottom;
 	height: 150px;
 	background-color: #4d524b;
 	font-size: 15px;
