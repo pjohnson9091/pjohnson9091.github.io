@@ -31,5 +31,7 @@ p.body{
 }
 
 footer{
-    margin-top: 225px;
+
+    float: bottom;
+   /* margin-top: 225px;*/
 }
