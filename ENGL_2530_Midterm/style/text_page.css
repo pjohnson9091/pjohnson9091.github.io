@@ -16,21 +16,21 @@ p.body{
 #Heorot_img{
     display: block;
     position: relative;
-    width: 300px; 
-    height: 200px;
+    width: 260px; 
+    height: 180px;
     margin-top: -210px;
 }
 
 #Beowulf_pyre_img{
     display: block;
     position: relative;
-    width: 255px; 
+    width: 225px; 
     height: 180px;
     float:right;
     margin-top: -200px;
 }
 
 footer{
-    float: bottom;
-   /* margin-top: 225px;*/
+
+   margin-top: 225px;
 }

@@ -10,8 +10,8 @@ h2{
 .Beowulf_img{
     display: block;
     position: relative;
-    width: 250px; 
-    height: 250px;
+    width: 200px; 
+    height: 200px;
     margin-left: 20px;
     margin-top: 170px;
 }
@@ -19,8 +19,8 @@ h2{
 .Unferth_img{
     display: block;
     position: relative;
-    width: 250px; 
-    height: 175 px;
+    width: 200px; 
+    height: 175px;
     margin-top: 70px;
     margin-left: 20px;
 }
@@ -29,8 +29,8 @@ h2{
     display: block;
     position: relative;
     float: right;
-    width: 250px; 
-    height: 250px;
+    width: 200px; 
+    height: 200px;
     margin-left: 1150px;
     margin-top: -550px;
 }
@@ -39,15 +39,15 @@ h2{
     display: block;
     position: relative;
     float: right;
-    width: 250px; 
-    height: 250px;
+    width: 200px; 
+    height: 200px;
     margin-left: 50px;
     margin-top: -250px;
 }
 
 
 .char_list_block{
-    margin-top: -675px;
+    margin-top: -600px;
 }
 
 p.char_list{
@@ -58,8 +58,7 @@ p.char_list{
 
 footer{
     position: relative;
-    float: bottom;
-    /*margin-top: 100px;*/
+    margin-top: 100px;
 	clear: both;
 	height: 120px;
 	background-color: #4d524b;
